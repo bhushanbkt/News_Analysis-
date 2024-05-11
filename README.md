@@ -20,7 +20,7 @@ This Streamlit app analyzes the mood, aspects, and connections in a given text a
 1. **Clone the Repository**:
 
     ```bash
-    https://github.com/bhushanbkt/News_Analysis
+    https://github.com/bhushanbkt/News_Analysis-
     ```
 
 2. **Install Dependencies**:
