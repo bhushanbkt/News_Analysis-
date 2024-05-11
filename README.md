@@ -1,57 +1,67 @@
-# News_Analysis-
-Introduction
+# Text Mood and Aspect Analysis App
+
+![App Screenshot] ![Screenshot (298)](https://github.com/bhushanbkt/News_Analysis-/assets/91175596/04b820d4-69fa-454b-8b62-ed0b0b262e77)
+
+
+## Introduction
+
 This Streamlit app analyzes the mood, aspects, and connections in a given text article. It utilizes natural language processing techniques to perform sentiment analysis, aspect detection, text summarization, and connections identification, providing valuable insights to the users.
 
-Features
-Mood Analysis: Classifies the overall mood of the text as positive, negative, or neutral.
-Aspect Analysis: Detects various aspects present in the text, such as Technology, Business, Health, and Politics.
-Text Summarization: Generates a concise summary of the text article.
-Audio Summary: Converts the text summary into audio format, allowing users to listen to it.
-Connections Identification: Identifies connections related to key themes or topics present in the text.
-How to Use
-Clone the Repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your_username/text-mood-aspect-analysis.git
-Install Dependencies:
+- **Mood Analysis**: Classifies the overall mood of the text as positive, negative, or neutral.
+- **Aspect Analysis**: Detects various aspects present in the text, such as Technology, Business, Health, and Politics.
+- **Text Summarization**: Generates a concise summary of the text article.
+- **Audio Summary**: Converts the text summary into audio format, allowing users to listen to it.
+- **Connections Identification**: Identifies connections related to key themes or topics present in the text.
 
-Navigate to the project directory and install the required Python libraries:
+## How to Use
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the App:
+1. **Clone the Repository**:
 
-Execute the following command to run the Streamlit app:
+    ```bash
+    https://github.com/bhushanbkt/News_Analysis
+    ```
 
-bash
-Copy code
-streamlit run app.py
-The app will be launched in your default web browser.
+2. **Install Dependencies**:
 
-Input Text:
+    Navigate to the project directory and install the required Python libraries:
 
-Enter the text article you want to analyze in the text area provided.
+    ```bash
+    pip install -r req.txt
+    ```
 
-Analyze:
+3. **Run the App**:
 
-Click on the "Analyze" button to trigger the analysis process.
+    Execute the following command to run the Streamlit app:
 
-View Results:
+    ```bash
+    streamlit run app.py
+    ```
 
-Mood Analysis: The detected mood (positive, negative, or neutral).
-Aspect Analysis: The detected aspects present in the text.
-Text Summary: A concise summary of the text article.
-Audio Summary: Play the audio summary generated from the text.
-Connections Identification: Connections related to key themes or topics in the text.
-Tools/Libraries Used
-Streamlit: Used to create the web application interface.
-NLTK (Natural Language Toolkit): Utilized for text preprocessing and tokenization.
-Sumy: Employed for text summarization.
-gTTS (Google Text-to-Speech): Used to convert text summaries into audio.
-Contributors
-Your Name
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    The app will be launched in your default web browser.
+
+4. **Input Text**:
+
+    Enter the text article you want to analyze in the text area provided.
+
+5. **Analyze**:
+
+    Click on the "Analyze" button to trigger the analysis process.
+![Screenshot (299)](https://github.com/bhushanbkt/News_Analysis-/assets/91175596/f59d3fff-731e-40db-a91a-4e86a8b85629)
+
+6. **View Results**:
+
+    - Mood Analysis: The detected mood (positive, negative, or neutral).
+    - Aspect Analysis: The detected aspects present in the text.
+    - Text Summary: A concise summary of the text article.
+    - Audio Summary: Play the audio summary generated from the text.
+    - Connections Identification: Connections related to key themes or topics in the text.
+
+## Tools/Libraries Used
+
+- **Streamlit**: Used to create the web application interface.
+- **NLTK (Natural Language Toolkit)**: Utilized for text preprocessing and tokenization.
+- **Sumy**: Employed for text summarization.
+- **gTTS (Google Text-to-Speech)**: Used to convert text summaries into audio.
 
